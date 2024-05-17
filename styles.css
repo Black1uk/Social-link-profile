@@ -1,0 +1,75 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --OffBlack: hsl(0, 0%, 8%);
+    --Green: hsl(75, 94%, 57%)
+}
+
+body{
+    background-color: var(--OffBlack);
+}
+
+.jus{
+    display: block;
+    width: 450px;
+    margin-left: 450px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    border: 10px;
+    height: 570px;
+    border-radius: 10px;
+    background-color:var(--DarkGrey);
+}
+
+.button-link{
+
+    height: 40px;
+    width: 320px;
+    margin: 7px;
+    margin-left: 70px;
+    border-radius: 10px;
+    background-color: var(--Grey);
+    color: var(--White);
+    cursor: pointer;
+    
+}
+
+.lond{
+    margin-left: 130px;
+    color:var(--Green);
+    word-spacing: 3px;
+}
+
+.name{
+    margin-left: 125px;
+    color: var(--White);
+    height: 17px;
+}
+
+.font{
+    color: var(--White);
+    margin-left: 90px;
+    word-spacing: 5px;
+}
+
+button:hover{
+    background-color: var(--Green);
+}
+img{
+    width: 100px;
+    border-radius: 100px;
+    margin-top: 45px;
+    position: relative;
+    left: 170px;
+}
+
+.nam{
+    margin-top: 24px;
+    margin-left:40px ;
+    color: var(--Grey);
+}
+cursor{
+    background-color: var(--Grey);
+    color: black;
+}
